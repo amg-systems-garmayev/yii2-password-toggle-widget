@@ -1,0 +1,25 @@
+{
+    "name": "garmayev/yii2-password-toggle-widget",
+    "description": "Yii2 widget for password field with toggle visibility button",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "widget", "password", "toggle", "visibility"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "garmayev",
+            "email": "garmayev@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "garmayev\\passwordtoggle\\": "src/"
+        }
+    },
+    "extra": {
+        "bootstrap": "garmayev\\passwordtoggle\\Bootstrap"
+    }
+}
